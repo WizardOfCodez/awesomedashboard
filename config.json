@@ -2,5 +2,6 @@
     "name": "My Awesome Dashboard",
     "short_description": "A really cool dashboard I did because I was bored",
     "contributors": ["WizardOfCodez"],
-    "min_lnbits_version": "0.11.0"
+    "min_lnbits_version": "0.11.0",
+    "tile": "/lnbits-awesome-dashboard/main/static/avatar.jpg"
 }
