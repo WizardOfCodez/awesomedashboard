@@ -3,7 +3,8 @@
         {
             "id": "lnbits-awesome-dashboard",
             "organisation": "WizardOfCodez",
-            "repository": "lnbits-awesome-dashboard"
+            "repository": "lnbits-awesome-dashboard",
+            "icon": "https://raw.githubusercontent.com/WizardOfCodez/lnbits-awesome-dashboard/main/static/avatar.jpg"
         }
     ]
 }
