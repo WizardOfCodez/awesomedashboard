@@ -1,11 +1,9 @@
 {
     "repos": [
         {
-            "id": "adashboard",
-            "organisation": "WizardOfCodez",
-            "repository": "https://github.com/WizardOfCodez/lnbits-awesome-dashboard",
-            "version": "0.0.1",
-            "short_description": "A cool dashboard"
+            "id": "lnbits-awesome-dashboard",
+            "organisation": "WizardOfCodes",
+            "repository": "lnbits-awesome-dashboard"
         }
     ]
 }
