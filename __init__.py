@@ -6,20 +6,20 @@ from lnbits.db import Database
 from lnbits.helpers import template_renderer
 from lnbits.tasks import catch_everything_and_restart
 
-db = Database("ext_example")
+db = Database("ext_awesomedashboard")
 
-example_ext: APIRouter = APIRouter(prefix="/example", tags=["example"])
+awesomedashboard_ext: APIRouter = APIRouter(prefix="/awesomedashboard", tags=["awesomedashboard"])
 
-example_static_files = [
+awesomedashboard_static_files = [
     {
-        "path": "/example/static",
-        "name": "example_static",
+        "path": "/awesomedashboard/static",
+        "name": "awesomedashboard_static",
     }
 ]
 
 
-def example_renderer():
-    return template_renderer(["example/templates"])
+def awesomedashboard_renderer():
+    return template_renderer(["awesomedashboard/templates"])
 
 
 from .tasks import wait_for_paid_invoices
@@ -27,6 +27,6 @@ from .views import *  # noqa: F401,F403
 from .views_api import *  # noqa: F401,F403
 
 
-def example_start():
+def awesomedashboard_start():
     loop = asyncio.get_event_loop()
     loop.create_task(catch_everything_and_restart(wait_for_paid_invoices))
