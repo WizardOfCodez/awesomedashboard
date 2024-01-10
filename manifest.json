@@ -1,0 +1,9 @@
+{
+    "repos": [
+        {
+            "id": "example",
+            "organisation": "wizardofcodez",
+            "repository": "example"
+        }
+    ]
+}
